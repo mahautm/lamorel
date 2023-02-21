@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=test-lamorel
 #SBATCH --ntasks-per-node=1
-#SBATCH --nodes=3
+#SBATCH --nodes=1
 #SBATCH --cpus-per-task=20
 #SBATCH --hint=nomultithread
 #SBATCH --time=00:05:00
